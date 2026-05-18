@@ -1,0 +1,29 @@
+R_DEF: Internal format may change without notice
+local
+id btnAddExpense
+id btnAddIncome
+id btnDashboard
+id btnSaveExpense
+id btnSaveIncome
+id cardProfit
+id cowContainer
+id etCowName
+id etDescription
+id etExpenseAmount
+id etFat
+id etLiters
+id etRate
+id spinnerCategory
+id tvFodder
+id tvHealthStatus
+id tvLabor
+id tvMedical
+id tvNetProfit
+id tvTotalExpense
+id tvTotalIncome
+layout activity_add_expense
+layout activity_add_income
+layout activity_dashboard
+layout activity_main
+string app_name
+style AppTheme

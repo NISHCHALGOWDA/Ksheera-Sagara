@@ -1,0 +1,105 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ksheera.sagara"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\nishc\.gradle\caches\transforms-3\543740e42155bb89dcbd6bdda0f43b68\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.ksheera.sagara.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\nishc\.gradle\caches\transforms-3\543740e42155bb89dcbd6bdda0f43b68\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\nishc\.gradle\caches\transforms-3\543740e42155bb89dcbd6bdda0f43b68\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.ksheera.sagara.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\nishc\.gradle\caches\transforms-3\543740e42155bb89dcbd6bdda0f43b68\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\nishc\.gradle\caches\transforms-3\543740e42155bb89dcbd6bdda0f43b68\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\nishc\OneDrive\Desktop\KsheeraSagara\app\src\main\AndroidManifest.xml:4:5-20:19
+18        android:allowBackup="true"
+18-->C:\Users\nishc\OneDrive\Desktop\KsheeraSagara\app\src\main\AndroidManifest.xml:5:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\nishc\.gradle\caches\transforms-3\543740e42155bb89dcbd6bdda0f43b68\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="false"
+22        android:label="Ksheera Sagara"
+22-->C:\Users\nishc\OneDrive\Desktop\KsheeraSagara\app\src\main\AndroidManifest.xml:6:9-39
+23        android:supportsRtl="true"
+23-->C:\Users\nishc\OneDrive\Desktop\KsheeraSagara\app\src\main\AndroidManifest.xml:7:9-35
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme" >
+25-->C:\Users\nishc\OneDrive\Desktop\KsheeraSagara\app\src\main\AndroidManifest.xml:8:9-40
+26        <activity
+26-->C:\Users\nishc\OneDrive\Desktop\KsheeraSagara\app\src\main\AndroidManifest.xml:9:9-16:20
+27            android:name="com.ksheera.sagara.MainActivity"
+27-->C:\Users\nishc\OneDrive\Desktop\KsheeraSagara\app\src\main\AndroidManifest.xml:10:13-41
+28            android:exported="true" >
+28-->C:\Users\nishc\OneDrive\Desktop\KsheeraSagara\app\src\main\AndroidManifest.xml:11:13-36
+29            <intent-filter>
+29-->C:\Users\nishc\OneDrive\Desktop\KsheeraSagara\app\src\main\AndroidManifest.xml:12:13-15:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\nishc\OneDrive\Desktop\KsheeraSagara\app\src\main\AndroidManifest.xml:13:17-69
+30-->C:\Users\nishc\OneDrive\Desktop\KsheeraSagara\app\src\main\AndroidManifest.xml:13:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\nishc\OneDrive\Desktop\KsheeraSagara\app\src\main\AndroidManifest.xml:14:17-77
+32-->C:\Users\nishc\OneDrive\Desktop\KsheeraSagara\app\src\main\AndroidManifest.xml:14:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity
+35-->C:\Users\nishc\OneDrive\Desktop\KsheeraSagara\app\src\main\AndroidManifest.xml:17:9-83
+36            android:name="com.ksheera.sagara.ui.AddIncomeActivity"
+36-->C:\Users\nishc\OneDrive\Desktop\KsheeraSagara\app\src\main\AndroidManifest.xml:17:19-55
+37            android:exported="false" />
+37-->C:\Users\nishc\OneDrive\Desktop\KsheeraSagara\app\src\main\AndroidManifest.xml:17:56-80
+38        <activity
+38-->C:\Users\nishc\OneDrive\Desktop\KsheeraSagara\app\src\main\AndroidManifest.xml:18:9-84
+39            android:name="com.ksheera.sagara.ui.AddExpenseActivity"
+39-->C:\Users\nishc\OneDrive\Desktop\KsheeraSagara\app\src\main\AndroidManifest.xml:18:19-56
+40            android:exported="false" />
+40-->C:\Users\nishc\OneDrive\Desktop\KsheeraSagara\app\src\main\AndroidManifest.xml:18:57-81
+41        <activity
+41-->C:\Users\nishc\OneDrive\Desktop\KsheeraSagara\app\src\main\AndroidManifest.xml:19:9-83
+42            android:name="com.ksheera.sagara.ui.DashboardActivity"
+42-->C:\Users\nishc\OneDrive\Desktop\KsheeraSagara\app\src\main\AndroidManifest.xml:19:19-55
+43            android:exported="false" />
+43-->C:\Users\nishc\OneDrive\Desktop\KsheeraSagara\app\src\main\AndroidManifest.xml:19:56-80
+44
+45        <service
+45-->[androidx.room:room-runtime:2.5.2] C:\Users\nishc\.gradle\caches\transforms-3\51c48e12c1918e9c33fddfdbe91be6bb\transformed\room-runtime-2.5.2\AndroidManifest.xml:24:9-28:63
+46            android:name="androidx.room.MultiInstanceInvalidationService"
+46-->[androidx.room:room-runtime:2.5.2] C:\Users\nishc\.gradle\caches\transforms-3\51c48e12c1918e9c33fddfdbe91be6bb\transformed\room-runtime-2.5.2\AndroidManifest.xml:25:13-74
+47            android:directBootAware="true"
+47-->[androidx.room:room-runtime:2.5.2] C:\Users\nishc\.gradle\caches\transforms-3\51c48e12c1918e9c33fddfdbe91be6bb\transformed\room-runtime-2.5.2\AndroidManifest.xml:26:13-43
+48            android:exported="false" />
+48-->[androidx.room:room-runtime:2.5.2] C:\Users\nishc\.gradle\caches\transforms-3\51c48e12c1918e9c33fddfdbe91be6bb\transformed\room-runtime-2.5.2\AndroidManifest.xml:27:13-37
+49
+50        <provider
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nishc\.gradle\caches\transforms-3\78e0f475248ccf690a14f03fa1cc16c2\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+51            android:name="androidx.startup.InitializationProvider"
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nishc\.gradle\caches\transforms-3\78e0f475248ccf690a14f03fa1cc16c2\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+52            android:authorities="com.ksheera.sagara.androidx-startup"
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nishc\.gradle\caches\transforms-3\78e0f475248ccf690a14f03fa1cc16c2\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+53            android:exported="false" >
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nishc\.gradle\caches\transforms-3\78e0f475248ccf690a14f03fa1cc16c2\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+54            <meta-data
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nishc\.gradle\caches\transforms-3\78e0f475248ccf690a14f03fa1cc16c2\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+55                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nishc\.gradle\caches\transforms-3\78e0f475248ccf690a14f03fa1cc16c2\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+56                android:value="androidx.startup" />
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nishc\.gradle\caches\transforms-3\78e0f475248ccf690a14f03fa1cc16c2\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+57            <meta-data
+57-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\nishc\.gradle\caches\transforms-3\a08e537b82c7c1ecb0346f490fbd9592\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+58                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+58-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\nishc\.gradle\caches\transforms-3\a08e537b82c7c1ecb0346f490fbd9592\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+59                android:value="androidx.startup" />
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\nishc\.gradle\caches\transforms-3\a08e537b82c7c1ecb0346f490fbd9592\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+60        </provider>
+61    </application>
+62
+63</manifest>
